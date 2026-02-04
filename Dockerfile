@@ -1,7 +1,7 @@
 #Can change to a dockerhub mirror site like: FROM docker.1ms.run/alpine:latest
 FROM alpine:latest
 #Add a goproxy
-ENV GOPROXY "https://goproxy.cn"
+ENV GOPROXY "https://goproxy.cn,https://mirrors.aliyun.com/goproxy/,direct"
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 #Install Tailscale and requirements
 RUN apk add curl iptables
