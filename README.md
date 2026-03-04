@@ -1,3 +1,5 @@
+更新：Tailscale 现已发布 [Peer Relay](https://tailscale.com/docs/features/peer-relay) ，建议直接使用，很丝滑，还装什么Derp？
+
 # 用法
 ## 云主机
 购买国内的 VPS 就行，建议在 618、双 11 过节的时候买良心云，打折力度大。
